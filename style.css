@@ -124,7 +124,6 @@ header h1 {
   padding: 10px 15px;
   margin: 0 5px 20px;
   font-weight: 700;
-  
 }
 
 @media (max-width: 500px) {
@@ -137,6 +136,9 @@ header h1 {
   display: flex !important;
 }
 
-p{
+p {
+  display: none;
   color: rgb(232, 63, 63);
+  text-align: center;
+  padding: 1rem;
 }
